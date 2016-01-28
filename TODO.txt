@@ -1,0 +1,11 @@
+            TODO
+            ----
+
+1- Header and footers with pagination for PDF (either using flying saucer or iText stamper)
+2- Tune charts to look as similar as possible to high-charts. High-charts or server side?
+
+https://github.com/one2team/highcharts-serverside-export
+
+Adapt this example.
+
+3- SVG inside flying saucer?

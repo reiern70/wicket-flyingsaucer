@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<wicket:panel>
+    <table class="RatingsTopTable">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="GreyLabel">Average Rating</div>
+                    <div class="CurrentRating">
+                        <span wicket:id="averageRating"></span> / <span wicket:id="maxRating"></span> <span wicket:id="ratingIncrease">Delta</span>
+                    </div>
+                    <div class="PreviousRating">
+                        <span wicket:id="previousAverageRating"></span> / <span wicket:id="previousMaxRating"></span> <span wicket:id="previousRatingIncrease">Delta</span>
+                    </div>
+                </td>
+                <td>
+                    <div class="GreyLabel">Responses</div>
+                    <div class="CurrentRating">
+                        <span wicket:id="totalResponses"></span> <span wicket:id="totalResponsesDelta"></span>
+                    </div>
+                    <div class="PreviousRating">
+                        <span wicket:id="previousTotalResponses"></span> <span wicket:id="previousTotalResponsesDelta"></span>
+                    </div>
+                </td>
+                <td class="Chart">
+                    <img src="http://localhost:8080/chart"/>
+                </td>
+            </tr>  
+        </tbody>
+    </table>
+    <table class="RatingsDetailsTable" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Rating</th>
+                <th>Responses</th>
+                <th>Change</th>
+                <th>% of total responses</th>
+                <th>Change</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr wicket:id="row">
+                <td wicket:id="rating" class="Rating">Rating</td>
+                <td wicket:id="responses">Responses</td>
+                <td wicket:id="change">Change</td>
+                <td wicket:id="percentage" class="PercentagePanel">% of total responses</td>
+                <td>Change</td>
+            </tr>
+        </tbody>
+    </table>
+</wicket:panel>
+</body>
+</html>

@@ -1,0 +1,118 @@
+.GeneralInfo {
+    padding-top: 300px;
+    text-align: center;
+    page-break-after: always;
+}
+
+.GeneralInfo .Title {
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.GeneralInfo .SubTitle {
+    color: black;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.GeneralInfo .Dates {
+    color: gray;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.QuestionContainer {
+    margin: 10px;
+}
+
+.QuestionContainer .Title {
+    color: black;
+    font-weight: bold;
+}
+
+.QuestionContainer .RatingsTopTable {
+    width: 100%;
+}
+
+.QuestionContainer .RatingsTopTable td {
+    vertical-align: top;
+}
+
+.QuestionContainer .RatingsTopTable td div {
+    padding-bottom: 10px;
+}
+
+.QuestionContainer .RatingsTopTable .GreyLabel {
+    color: gray;
+}
+
+.QuestionContainer .RatingsTopTable .DeltaPlus {
+    background-color: lightgreen;
+}
+
+.QuestionContainer .RatingsTopTable .DeltaMinus {
+    background-color: lightpink;
+}
+
+.QuestionContainer .RatingsTopTable .Chart {
+    text-align: center;
+}
+
+.QuestionContainer .RatingsTopTable .PreviousRating {
+    font-size: 11px;
+    color: darkgray;
+}
+
+.QuestionContainer .RatingsDetailsTable  {
+    width: 100%;
+    border-collapse: inherit;
+}
+
+.QuestionContainer .RatingsDetailsTable .Change {
+    font-size: 11px;
+}
+
+.QuestionContainer .RatingsDetailsTable th {
+    color: darkgray;
+    font-size: 12px;
+}
+
+.QuestionContainer .RatingsDetailsTable tbody tr {
+
+}
+
+.QuestionContainer .RatingsDetailsTable td {
+    font-size: 11px;
+    border-top: 1px solid gray !important;
+}
+
+.QuestionContainer .RatingsDetailsTable td.Rating {
+    width: 250px !important;
+}
+
+.QuestionContainer .RatingsDetailsTable td .Change {
+    font-size: 11px;
+    color: gray !important;
+}
+
+.QuestionContainer .RatingsDetailsTable td.PercentagePanel div {
+    display: block;
+    float: left;
+}
+
+.QuestionContainer .RatingsDetailsTable td.PercentagePanel .Per {
+    width: 40px !important;
+}
+
+.QuestionContainer .RatingsDetailsTable td.PercentagePanel .ParentPer {
+    display: block;
+    width: 100px;
+}
+
+.QuestionContainer .RatingsDetailsTable td.PercentagePanel .ChildPer {
+    display: block;
+    width: 40px;
+    background-color: orangered;
+    color: transparent;
+}
